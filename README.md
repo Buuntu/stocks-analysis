@@ -6,10 +6,21 @@ Uses pandas_datareader and IEX for API calls
 
 ## Installation
 ### Backend
-`pip install -r requirements.txt
-./manage.py runserver`
+```
+pip install -r requirements.txt
+./manage.py runserver
+```
 
 ### Frontend
-`cd frontend
+```
+cd frontend
 npm install
-npm start`
+npm start
+```
+
+### Deployment
+```
+npm run build
+./manage collectstatic
+./manage runserver
+```
