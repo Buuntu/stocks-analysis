@@ -1,0 +1,20 @@
+.StockDay {
+  border-shadow: 2px;
+  margin: 50px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.Chart {
+  margin-top: 10px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.StockForm {
+  float: none;
+  margin: 20px auto;
+  width: 750px;
+}
