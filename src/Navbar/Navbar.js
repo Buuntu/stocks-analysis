@@ -7,7 +7,7 @@ const navbar = () => {
   return (
   <Navbar bg="dark" variant="dark">
   <Nav className="mr-auto">
-    <Navbar.Brand href="/"><img src="arrow.svg" id="logo"/>
+    <Navbar.Brand href="/"><img src={require("arrow.svg")} id="logo"/>
     Restocks</Navbar.Brand>
     <IndexLinkContainer to="/">
       <Nav.Link>Stocks</Nav.Link>
