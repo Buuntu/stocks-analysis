@@ -68,7 +68,7 @@ class StockDay extends Component {
 
     const stock_data = [...this.state.stock_data]
 
-    axios.get('http://localhost:8000/api/stocks/' + stock_name, {
+    axios.get('/api/stocks/' + stock_name, {
       params: {
         'start_date': start_date,
         'end_date': end_date
